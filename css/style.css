@@ -81,6 +81,7 @@ h1 {
 .col-4 {
     padding: 15px 15px;
     flex-basis: calc(100% / 3);
+    position: relative;
 }
 
 .col-4 figure img {
@@ -94,6 +95,12 @@ h1 {
 
 .col-4 figure {
     box-shadow: 2px 2px 3px black;
+}
+
+.card-back {
+    position: absolute;
+    top: 0px;
+    display: none;
 }
 
 
