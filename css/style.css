@@ -11,4 +11,90 @@ html {
 .app {
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/_c40cc8d7-e728-41e4-bf0c-ef39a3bd47f3.jpeg');
+    background-size: cover;
 }
+
+.app-header {
+    
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-size: 40px;
+}
+
+.app-main {
+    
+    flex-grow: 1;
+    
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    flex-basis: 400px;
+}
+
+.input p {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input button {
+    flex-basis: 50px;
+    width: 120px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: green;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-4 {
+    padding: 15px 15px;
+    flex-basis: calc(100% / 3);
+}
+
+.col-4 figure img {
+    max-width: 100%;
+    display: block;
+}
+
+.card-section {
+    padding-top: 50px;
+}
+
+.col-4 figure {
+    box-shadow: 2px 2px 3px black;
+}
+
+
+
