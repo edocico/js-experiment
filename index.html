@@ -20,7 +20,11 @@
         <main class="app-main">
             <section class="input-section">
                 <div class="input">
-                    <p>Seleziona una delle seguenti carte inserendo nel box sottostante il numero corrispondente e poi premi il tasto "OK!"</p>
+                    <div>
+                        <p class="frase-1">Seleziona una delle seguenti carte inserendo nel box sottostante il numero corrispondente e poi premi il tasto "OK!"</p>
+                        <p class="frase-2 d-none">Ok!...Ho mescolato le carte.Ora , di nuovo , inserisci nel box sottostante un numero da 1 a 3 provando ad indovinare dov'è la carta che avevi selezionato prima , sapendo che 1 è sinistra 2 è centro 3 è destra</p>
+                    </div>
+
                     <input id="n-input" type="number" value="" name="number" placeholder="scegli un numero da 1 a 3">
                     <button id="ok-btn">Ok!</button>
                 </div>
@@ -29,7 +33,7 @@
             <section class="card-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 col-1">
                             <figure class="card-front card-front1">
                                 <img src="./img/carta1.jpeg" alt="">
                             </figure>
@@ -38,7 +42,7 @@
                             </figure>
                         </div>
 
-                        <div class="col-4">
+                        <div class="col-4 col-2">
                             <figure class="card-front card-front2">
                                 <img src="./img/carta2.jpeg" alt="">
                             </figure>
@@ -47,7 +51,7 @@
                             </figure>
                         </div>
                             
-                        <div class="col-4">
+                        <div class="col-4 col-3">
                             <figure class="card-front card-front3">
                                 <img src="./img/carta3.jpeg" alt="">
                             </figure>
