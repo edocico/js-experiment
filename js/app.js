@@ -274,6 +274,7 @@ okBtnDOMElement.addEventListener('click', function() {
                 rldBtnDOMElement.classList.add('d-block')
             }
 
+            // event listner reload button
             rldBtnDOMElement.addEventListener('click', function() {
                 window.location.reload()    
             })
