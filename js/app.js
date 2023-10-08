@@ -28,6 +28,8 @@ const p1DOMElement = document.querySelector('.frase-1')
 
 const p2DOMElement = document.querySelector('.frase-2')
 
+const rldBtnDOMElement = document.getElementById('reload-btn')
+
 // INIZIO SCRIPT
 
 // event listner bottone ok
@@ -114,6 +116,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 1 && userNumber2 === 2 && (genNumber === 2 || genNumber === 5)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -128,6 +133,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 1 && userNumber2 === 3 && (genNumber === 3 || genNumber === 6)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -142,6 +150,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 2 && userNumber2 === 1 && (genNumber === 2 || genNumber === 3)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -156,6 +167,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 2 && userNumber2 === 2 && (genNumber === 1 || genNumber === 6)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -170,6 +184,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 2 && userNumber2 === 3 && (genNumber === 4 || genNumber === 5)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -184,6 +201,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 3 && userNumber2 === 1 && (genNumber === 5 || genNumber === 6)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -198,6 +218,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 3 && userNumber2 === 2 && (genNumber === 3 || genNumber === 4)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -212,6 +235,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else if (userNumber === 3 && userNumber2 === 3 && (genNumber === 1 || genNumber === 2)) {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -226,6 +252,9 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Complimenti hai vinto! ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             } else {
                 cardB1DOMElement.classList.remove('d-block')
                 cardB2DOMElement.classList.remove('d-block')
@@ -240,7 +269,14 @@ okBtnDOMElement.addEventListener('click', function() {
                 cardF2DOMElement.classList.add('d-block')
                 cardF3DOMElement.classList.add('d-block')
                 alert('Mi dispiace! Hai perso. Ricarica la pagina per giocare ancora.')
+                okBtnDOMElement.classList.add('d-none')
+                rldBtnDOMElement.classList.remove('d-none')
+                rldBtnDOMElement.classList.add('d-block')
             }
+
+            rldBtnDOMElement.addEventListener('click', function() {
+                window.location.reload()    
+            })
         })  
 
     }
